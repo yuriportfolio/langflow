@@ -1,7 +1,8 @@
 repo_name: yuriportfolio/langflow
 report_id: 587fd3f7447bb85ff7286c81a24ab9e5
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T20:03:33+00:00'
+timestamp: '2024-01-04T15:13:27+00:00'
 requested_by: ogabrielluiz
 provider: github
 branch: dev
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/yuriportfolio/langflow
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/yuriportfolio/langflow
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/yuriportfolio/langflow
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -45,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/yuriportfolio/langflow
   detection_source: Repo Metadata
 - name: Node.js
   description: A platform built on Chrome's JavaScript runtime for easily building
@@ -55,7 +60,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: src/frontend/package.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/Dockerfile
+  detection_source: src/frontend/Dockerfile
   last_updated_by: Ibis Prevedello
   last_updated_on: 2023-03-02 22:56:42.000000000 Z
 - name: React
@@ -68,7 +74,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-03-28 02:04:44.000000000 Z
@@ -82,7 +88,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/3350/8261421.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-03-28 02:04:44.000000000 Z
@@ -95,6 +101,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/yuriportfolio/langflow
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -104,6 +111,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yuriportfolio/langflow
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -113,7 +121,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/test.yml"
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/.github/workflows/lint.yml
+  detection_source: ".github/workflows/lint.yml"
   last_updated_by: ogabrielluiz
   last_updated_on: 2023-03-07 16:08:12.000000000 Z
 - name: Jest
@@ -126,7 +135,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-02-08 22:50:42.000000000 Z
@@ -139,6 +148,7 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/nginx.conf
   detection_source: src/frontend/nginx.conf
   last_updated_by: Ibis Prevedello
   last_updated_on: 2023-03-02 22:56:42.000000000 Z
@@ -150,6 +160,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Ibis Prevedello
   last_updated_on: 2023-03-02 01:55:44.000000000 Z
@@ -161,6 +172,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-02-08 22:50:42.000000000 Z
@@ -173,7 +185,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-03-24 20:31:01.000000000 Z
@@ -186,6 +198,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/yuriportfolio/langflow
   detection_source: Repo Metadata
 - name: axios
   description: Promise based HTTP client for the browser and node.js
@@ -197,7 +210,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: ogabrielluiz
   last_updated_on: 2023-03-09 14:18:58.000000000 Z
@@ -211,7 +224,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: ogabrielluiz
   last_updated_on: 2023-03-09 14:18:58.000000000 Z
@@ -225,7 +238,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: ogabrielluiz
   last_updated_on: 2023-03-09 14:18:58.000000000 Z
@@ -240,7 +253,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-03-28 02:04:44.000000000 Z
@@ -254,7 +267,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: ogabrielluiz
   last_updated_on: 2023-03-09 14:18:58.000000000 Z
@@ -268,7 +281,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: ogabrielluiz
   last_updated_on: 2023-03-09 14:18:58.000000000 Z
@@ -282,7 +295,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-03-28 02:04:44.000000000 Z
@@ -296,7 +309,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-03-28 02:04:44.000000000 Z
@@ -310,7 +323,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18432/default_090197a87d306c919c7dbc09bfedd02e3b061236.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-03-28 02:04:44.000000000 Z
@@ -324,7 +337,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-03-28 02:04:44.000000000 Z
@@ -338,7 +351,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-03-28 02:04:44.000000000 Z
@@ -352,7 +365,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-03-28 02:04:44.000000000 Z
@@ -366,7 +379,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-03-28 02:04:44.000000000 Z
@@ -380,13 +393,13 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
-  detection_source_url: src/frontend/package-lock.json
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/src/frontend/package-lock.json
   detection_source: src/frontend/package.json
   last_updated_by: ogabrielluiz
   last_updated_on: 2023-03-09 14:18:58.000000000 Z
 - name: beautifulsoup4
   description: Screen-scraping library
-  package_url: https://pypi.org/beautifulsoup4
+  package_url: https://pypi.org/project/beautifulsoup4
   version: 4.12.1
   license: MIT
   open_source: true
@@ -394,13 +407,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Ibis Prevedello
   last_updated_on: 2023-03-13 22:59:50.000000000 Z
 - name: dill
   description: Serialize all of python
-  package_url: https://pypi.org/dill
+  package_url: https://pypi.org/project/dill
   version: 0.3.6
   license: BSD-3-Clause
   open_source: true
@@ -408,13 +421,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19972/default_735d20726524f3a2b12f956af25bde52f942f85a.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Gabriel Almeida
   last_updated_on: 2023-04-01 20:25:19.000000000 Z
 - name: fastapi
   description: FastAPI framework
-  package_url: https://pypi.org/fastapi
+  package_url: https://pypi.org/project/fastapi
   version: 0.92.0
   license: MIT
   open_source: true
@@ -422,13 +435,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20520/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Gabriel Almeida
   last_updated_on: 2023-03-19 15:38:37.000000000 Z
 - name: google-api-python-client
   description: Google API Client Library for Python
-  package_url: https://pypi.org/google-api-python-client
+  package_url: https://pypi.org/project/google-api-python-client
   version: 2.84.0
   license: Apache-2.0
   open_source: true
@@ -436,13 +449,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Yoaz Menda
   last_updated_on: 2023-04-08 06:24:10.000000000 Z
 - name: gunicorn
   description: WSGI HTTP Server for UNIX
-  package_url: https://pypi.org/gunicorn
+  package_url: https://pypi.org/project/gunicorn
   version: 20.1.0
   license: MIT
   open_source: true
@@ -450,13 +463,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Ibis Prevedello
   last_updated_on: 2023-03-13 22:59:50.000000000 Z
 - name: pandas
   description: Powerful data structures for data analysis
-  package_url: https://pypi.org/pandas
+  package_url: https://pypi.org/project/pandas
   version: 1.5.3
   license: BSD-3-Clause
   open_source: true
@@ -464,7 +477,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
-  detection_source_url: poetry.lock
+  detection_source_url: https://github.com/yuriportfolio/langflow/blob/dev/poetry.lock
   detection_source: pyproject.toml
   last_updated_by: Ibis Prevedello
   last_updated_on: 2023-04-01 19:17:31.000000000 Z
