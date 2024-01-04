@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 yuriportfolio/langflow is built on the following main stack:
+
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Python](https://www.python.org) – Languages
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -17,11 +18,13 @@ yuriportfolio/langflow is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 yuriportfolio/langflow is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -37,14 +40,15 @@ yuriportfolio/langflow is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [yuriportfolio/langflow](https://github.com/yuriportfolio/langflow)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|36<br/>Tools used|11/09/23 <br/>Report generated|
+|36<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -230,14 +234,14 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[beautifulsoup4](https://pypi.org/beautifulsoup4)|v4.12.1|03/13/23|Ibis Prevedello |MIT|N/A|
-|[dill](https://pypi.org/dill)|v0.3.6|04/01/23|Gabriel Almeida |BSD-3-Clause|N/A|
-|[fastapi](https://pypi.org/fastapi)|v0.92.0|03/19/23|Gabriel Almeida |MIT|N/A|
-|[google-api-python-client](https://pypi.org/google-api-python-client)|v2.84.0|04/08/23|Yoaz Menda |Apache-2.0|N/A|
-|[gunicorn](https://pypi.org/gunicorn)|v20.1.0|03/13/23|Ibis Prevedello |MIT|N/A|
-|[pandas](https://pypi.org/pandas)|v1.5.3|04/01/23|Ibis Prevedello |BSD-3-Clause|N/A|
+|[beautifulsoup4](https://pypi.org/project/beautifulsoup4)|v4.12.1|03/13/23|Ibis Prevedello |MIT|N/A|
+|[dill](https://pypi.org/project/dill)|v0.3.6|04/01/23|Gabriel Almeida |BSD-3-Clause|N/A|
+|[fastapi](https://pypi.org/project/fastapi)|v0.92.0|03/19/23|Gabriel Almeida |MIT|N/A|
+|[google-api-python-client](https://pypi.org/project/google-api-python-client)|v2.84.0|04/08/23|Yoaz Menda |Apache-2.0|N/A|
+|[gunicorn](https://pypi.org/project/gunicorn)|v20.1.0|03/13/23|Ibis Prevedello |MIT|N/A|
+|[pandas](https://pypi.org/project/pandas)|v1.5.3|04/01/23|Ibis Prevedello |BSD-3-Clause|N/A|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
